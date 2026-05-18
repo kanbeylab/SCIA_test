@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>特定商取引法に基づく表記｜SCIA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Noto+Serif+JP:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --mint-dark: #5FAFA2; --mint-light: #E2F2EF;
+            --salmon-dark: #E27D6B; --salmon-light: #FDECE9;
+            --ink: #1a1a2e; --paper: #faf8f3;
+            --g100: #f3f4f6; --g400: #9ca3af; --g500: #6b7280; --g600: #4b5563;
+        }
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Noto Sans JP', sans-serif; color: var(--ink); background: var(--paper); font-size: 16px; line-height: 1.85; }
+        a { text-decoration: none; color: inherit; }
+        button { cursor: pointer; font-family: inherit; border: none; background: none; }
+
+        /* HEADER */
+        .header { background: var(--ink); padding: 16px 0; }
+        .header-inner { max-width: 900px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; justify-content: space-between; }
+        .logo { display: flex; align-items: center; gap: 8px; font-weight: 900; font-size: 1.15rem; color: #fff; }
+        .logo-s { background: var(--mint-dark); color: #fff; padding: 4px 8px; border-radius: 8px; font-size: 1rem; }
+        .back-link { font-size: 0.88rem; color: rgba(255,255,255,0.7); display: flex; align-items: center; gap: 6px; transition: color 0.2s; }
+        .back-link:hover { color: #fff; }
+
+        /* HERO */
+        .page-hero { background: linear-gradient(135deg, #1a1a2e, #16213e); padding: 56px 20px 48px; text-align: center; }
+        .page-hero h1 { font-family: 'Noto Serif JP', serif; font-weight: 900; color: #fff; font-size: clamp(1.5rem, 4vw, 2.2rem); margin-bottom: 10px; }
+        .page-hero p { color: rgba(255,255,255,0.55); font-size: 0.88rem; }
+
+        /* CONTENT */
+        .content { max-width: 780px; margin: 0 auto; padding: 56px 20px 80px; }
+        @media(min-width:640px){ .content { padding: 64px 32px 100px; } }
+
+        .intro { background: var(--mint-light); border-radius: 16px; padding: 20px 24px; margin-bottom: 40px; color: var(--g600); font-size: 0.93rem; line-height: 1.85; border-left: 4px solid var(--mint-dark); }
+
+        table { width: 100%; border-collapse: collapse; margin-bottom: 40px; }
+        tr { border-bottom: 1px solid var(--g100); }
+        tr:last-child { border-bottom: 2px solid var(--ink); }
+        th, td { padding: 18px 16px; font-size: 0.95rem; line-height: 1.85; text-align: left; vertical-align: top; }
+        th { width: 36%; background: #f9fafb; font-weight: 700; color: var(--ink); white-space: nowrap; }
+        @media(max-width:540px){
+            table, thead, tbody, th, td, tr { display: block; }
+            th { background: #f3f4f6; padding: 10px 16px 6px; font-size: 0.82rem; color: var(--g500); border-bottom: none; }
+            td { padding: 6px 16px 16px; }
+            tr { border-bottom: 1px solid var(--g100); }
+        }
+        td a { color: var(--mint-dark); text-decoration: underline; }
+
+        .section-title { font-family: 'Noto Serif JP', serif; font-weight: 700; font-size: 1.15rem; margin: 40px 0 16px; padding-bottom: 8px; border-bottom: 2px solid var(--mint-light); color: var(--ink); }
+        .text-block { color: var(--g600); font-size: 0.93rem; line-height: 1.9; margin-bottom: 20px; }
+        .text-block p + p { margin-top: 12px; }
+
+        .note { background: var(--salmon-light); border-radius: 14px; padding: 18px 22px; font-size: 0.88rem; color: var(--g600); line-height: 1.85; margin-top: 32px; }
+
+        /* FOOTER */
+        .footer { background: var(--ink); color: var(--g400); padding: 36px 20px; text-align: center; }
+        .footer-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-bottom: 20px; }
+        .footer-links a { font-size: 0.85rem; color: var(--g400); transition: color 0.2s; }
+        .footer-links a:hover { color: #fff; }
+        .footer-copy { font-size: 0.75rem; color: var(--g500); }
+    </style>
+</head>
+<body>
+
+<header class="header">
+    <div class="header-inner">
+        <a href="index.html" class="logo">
+            <span class="logo-s">S</span> SCIA
+        </a>
+        <a href="index.html" class="back-link">← 募集ページへ戻る</a>
+    </div>
+</header>
+
+<div class="page-hero">
+    <h1>特定商取引法に基づく表記</h1>
+    <p>Tokusho-ho Disclosure</p>
+</div>
+
+<div class="content">
+    <p class="intro">株式会社勘兵衛は、特定商取引法に基づき、以下の通り表記いたします。</p>
+
+    <table>
+        <tr><th>販売事業者名</th><td>株式会社勘兵衛</td></tr>
+        <tr><th>代表者名</th><td>代表取締役　小口 彩子</td></tr>
+        <tr><th>所在地</th><td>※お問い合わせいただいた方に開示いたします。</td></tr>
+        <tr><th>電話番号</th><td>※お問い合わせいただいた方に開示いたします。</td></tr>
+        <tr><th>メールアドレス</th><td><a href="mailto:info@scia.jp">info@scia.jp</a>（※更新予定）</td></tr>
+        <tr><th>販売URL</th><td><a href="index.html">https://scia.jp/zero</a>（※更新予定）</td></tr>
+        <tr><th>販売価格</th><td>第0期生 特別価格：98,000円（税別）<br>通常価格：240,000円（税別）＋ SCIAギルド年会費 60,000円（税別）</td></tr>
+        <tr><th>代金の支払時期</th><td>お申し込み後、請求書を発行いたします。請求書記載の期日までにお支払いください。</td></tr>
+        <tr><th>代金の支払方法</th><td>銀行振込</td></tr>
+        <tr><th>サービス提供時期</th><td>お申し込み・お支払い確認後、開講日程をご案内いたします。</td></tr>
+        <tr><th>返品・キャンセルについて</th><td>お申し込み後のキャンセル・返金は原則としてお受けしておりません。ただし、やむを得ない事情がある場合は、開講日の14日前までにご連絡いただいた場合に限り、個別にご相談に応じます。</td></tr>
+        <tr><th>動作環境</th><td>オンライン実施のため、インターネット接続環境およびZoom等のビデオ通話ツールが使用できる端末が必要です。</td></tr>
+    </table>
+
+    <h2 class="section-title">追加事項</h2>
+    <div class="text-block">
+        <p>本プログラムは教育・学習サービスであり、受講の結果として特定の成果（転職・就職・出版・収入増加等）を保証するものではありません。</p>
+        <p>3ヶ月目の成果物「出版企画案」は、自分の経験・知識を体系化するための学習成果物です。実際の出版を約束・保証するものではありません。</p>
+    </div>
+
+    <div class="note">
+        ご不明な点は <a href="contact.html" style="color:var(--mint-dark);text-decoration:underline">お問い合わせフォーム</a> よりご連絡ください。内容確認後、担当者よりご返信いたします。
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="footer-links">
+        <a href="index.html">募集ページ</a>
+        <a href="site06.html">SCIA 公式サイト</a>
+        <a href="privacy.html">プライバシーポリシー</a>
+        <a href="contact.html">お問い合わせ</a>
+    </div>
+    <p class="footer-copy">&copy; <span id="year"></span> Second Career Incubation Association. All Rights Reserved.</p>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
